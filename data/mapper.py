@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 
-hfont = { 'fontname': 'papyrus' }
-
 # plot / chart world population for the past 115 years
 
 years = [1900, 1950, 1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015]
@@ -13,6 +11,6 @@ plt.plot(years, pops, color=(0/225, 100/225, 100/255), linewidth=3.0)
 # add some lables
 plt.ylabel("Population by Billions")
 plt.xlabel("Population Growth by Year")
-plt.title("Global Population Growth - 100 Years", pad=20, **hfont)
+plt.title("Global Population Growth - 100 Years", pad=20,)
 
 plt.show()
