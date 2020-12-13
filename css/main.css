@@ -4,8 +4,90 @@
 	border: none;
 	padding: 0;
 	margin: 0;
+	background-color: #c7d1c9;
 }
 
-body { font-size: 16px; font-family: 'Arial', 'helvetica', sans-serif; }
+main { font-size: 24px; font-family: 'Arial', 'helvetica', sans-serif; }
 
-.hidden { display: none; }
+.header {
+	padding: 20px;
+	margin: 0 auto;
+	width: 575px;
+	height: 50px;
+	background-color: #f55442;
+}
+
+section { font-size: 18px; font-family: 'Arial', 'helvetica', sans-serif; }
+
+.subhead {
+	padding: 20px;
+	margin: 0 auto;
+	width: 575px;
+	height: 30px;
+	background-color: #f55442;
+}
+
+.canada-img {
+	margin: 0 auto;
+	padding-right: 100px;
+	width: 200px;
+	height: 300px;
+}
+
+.intro {
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+section { font-size: 14px; font-family: 'Arial', 'helvetica', sans-serif; }
+
+.hidden {
+	padding: 20px;
+}
+
+.sidebar {
+	margin: 0 auto;
+	padding: 20px;
+	padding-left: 100px;
+}
+
+.content {
+	font-size: 18px;
+	float: right;
+	padding: 0px;
+}
+
+section { font-size: 14px; font-family: 'Arial', 'helvetica', sans-serif; }
+
+.hidden {
+	padding-top: 20px;
+	padding: 20px;
+	clear: both;
+}
+
+.medal-img {
+	margin: 0 auto;
+	padding: 20px
+	padding-left: 100px;
+}
+
+.text {
+	font-size: 18px;
+	float: left;
+	padding: 20px;
+	padding-bottom: 20px;
+}
+
+section { font-size: 14px; font-family: 'Arial', 'helvetica', sans-serif; }
+
+.hidden {
+	padding-top: 20px;
+	padding: 20px;
+}
+
+.canada-img {
+	margin: 0 auto;
+	width: 500px;
+	height: 400px;
+}
