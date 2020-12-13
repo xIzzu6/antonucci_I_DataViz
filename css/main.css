@@ -79,8 +79,15 @@ section { font-size: 14px; font-family: 'Arial', 'helvetica', sans-serif; }
 	padding-bottom: 20px;
 }
 
-footer { font-size: 14px; font-family: 'Arial', 'helvetica', sans-serif; }
+section { font-size: 14px; font-family: 'Arial', 'helvetica', sans-serif; }
 
-.footer {
-	clear: both;
+.hidden {
+	padding-top: 20px;
+	padding: 20px;
+}
+
+.canada-img {
+	margin: 0 auto;
+	width: 500px;
+	height: 400px;
 }
